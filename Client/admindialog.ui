@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AdminDialog</class>
+ <widget class="QDialog" name="AdminDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>916</width>
+    <height>871</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Bank System</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog
+{
+	
+	background-color: rgb(36, 68, 67);
+}</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="2" column="2">
+    <spacer name="verticalSpacer_6">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>27</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="1" colspan="3">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="styleSheet">
+      <string notr="true">QGroupBox
+{
+	font: 700 18pt &quot;Ubuntu&quot;;
+	color: rgb(255, 255, 255);
+}</string>
+     </property>
+     <property name="title">
+      <string>Services</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="1" column="5">
+       <spacer name="horizontalSpacer_12">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>47</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="7" column="2">
+       <widget class="QPushButton" name="getBalance_btn">
+        <property name="minimumSize">
+         <size>
+          <width>211</width>
+          <height>111</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>422</width>
+          <height>111</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+border -raduis: 3px;
+	background-color: rgb(211, 164, 103);
+color: rgb(255, 255, 255);
+font: 700 16pt &quot;Ubuntu Condensed&quot;;
+}
+
+QPushButton:hover{
+	
+	background-color: rgb(255, 163, 72);
+}
+
+QPushButton:pressed{
+	background-color: rgb(87, 227, 137);
+}</string>
+        </property>
+        <property name="text">
+         <string>Get Account Balance</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="0">
+       <spacer name="horizontalSpacer_8">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="1" column="0">
+       <spacer name="horizontalSpacer_5">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>47</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="2" column="4">
+       <spacer name="verticalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="6" column="4">
+       <spacer name="verticalSpacer_10">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="3" column="0">
+       <spacer name="horizontalSpacer_6">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>47</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="3" column="1" colspan="2">
+       <widget class="QPushButton" name="transHistory_btn">
+        <property name="minimumSize">
+         <size>
+          <width>211</width>
+          <height>111</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>422</width>
+          <height>111</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+border -raduis: 3px;
+	background-color: rgb(211, 164, 103);
+color: rgb(255, 255, 255);
+font: 700 16pt &quot;Ubuntu Condensed&quot;;
+}
+
+QPushButton:hover{
+	
+	background-color: rgb(255, 163, 72);
+}
+
+QPushButton:pressed{
+	background-color: rgb(87, 227, 137);
+}</string>
+        </property>
+        <property name="text">
+         <string>View transaction
+history</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="4">
+       <widget class="QPushButton" name="deleteAccoutn_btn">
+        <property name="minimumSize">
+         <size>
+          <width>211</width>
+          <height>111</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>422</width>
+          <height>111</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+border -raduis: 3px;
+	background-color: rgb(211, 164, 103);
+color: rgb(255, 255, 255);
+font: 700 16pt &quot;Ubuntu Condensed&quot;;
+}
+
+QPushButton:hover{
+	
+	background-color: rgb(255, 163, 72);
+}
+
+QPushButton:pressed{
+	background-color: rgb(87, 227, 137);
+}</string>
+        </property>
+        <property name="text">
+         <string>Delete User</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="4">
+       <widget class="QPushButton" name="updateUsr_btn">
+        <property name="minimumSize">
+         <size>
+          <width>211</width>
+          <height>111</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>422</width>
+          <height>111</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+border -raduis: 3px;
+	background-color: rgb(211, 164, 103);
+color: rgb(255, 255, 255);
+font: 700 16pt &quot;Ubuntu Condensed&quot;;
+}
+
+QPushButton:hover{
+	
+	background-color: rgb(255, 163, 72);
+}
+
+QPushButton:pressed{
+	background-color: rgb(87, 227, 137);
+}</string>
+        </property>
+        <property name="text">
+         <string>Update User</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="2">
+       <spacer name="verticalSpacer_5">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="7" column="5">
+       <spacer name="horizontalSpacer_9">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="5" column="0">
+       <spacer name="horizontalSpacer_7">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>47</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="7" column="4">
+       <widget class="QPushButton" name="returnHome_btn">
+        <property name="minimumSize">
+         <size>
+          <width>211</width>
+          <height>111</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>422</width>
+          <height>111</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+border -raduis: 3px;
+	
+	background-color: rgb(224, 27, 36);
+color: rgb(255, 255, 255);
+font: 700 16pt &quot;Ubuntu Condensed&quot;;
+}
+
+QPushButton:hover{
+	
+	
+	background-color: rgb(246, 97, 81);
+}
+
+QPushButton:pressed{
+	
+	background-color: rgb(165, 29, 45);
+}</string>
+        </property>
+        <property name="text">
+         <string>Log out</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="3">
+       <spacer name="horizontalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>46</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="0" column="4">
+       <spacer name="verticalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>104</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="1" column="3">
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>46</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="1" column="1" colspan="2">
+       <widget class="QPushButton" name="getAccoutn_btn">
+        <property name="minimumSize">
+         <size>
+          <width>211</width>
+          <height>111</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>422</width>
+          <height>111</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+border -raduis: 3px;
+	background-color: rgb(211, 164, 103);
+color: rgb(255, 255, 255);
+font: 700 16pt &quot;Ubuntu Condensed&quot;;
+}
+
+QPushButton:hover{
+	
+	background-color: rgb(255, 163, 72);
+}
+
+QPushButton:pressed{
+	background-color: rgb(87, 227, 137);
+}</string>
+        </property>
+        <property name="text">
+         <string>Get Account number</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="3">
+       <spacer name="horizontalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="1" column="4">
+       <widget class="QPushButton" name="createUsr_btn">
+        <property name="minimumSize">
+         <size>
+          <width>211</width>
+          <height>111</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>422</width>
+          <height>111</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+border -raduis: 3px;
+	background-color: rgb(211, 164, 103);
+color: rgb(255, 255, 255);
+font: 700 16pt &quot;Ubuntu Condensed&quot;;
+}
+
+QPushButton:hover{
+	
+	background-color: rgb(255, 163, 72);
+}
+
+QPushButton:pressed{
+	background-color: rgb(87, 227, 137);
+}</string>
+        </property>
+        <property name="text">
+         <string>Create New User</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="5">
+       <spacer name="horizontalSpacer_10">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>47</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="4" column="4">
+       <spacer name="verticalSpacer_8">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="5" column="1" colspan="2">
+       <widget class="QPushButton" name="viewDatabase_btn">
+        <property name="minimumSize">
+         <size>
+          <width>211</width>
+          <height>111</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>422</width>
+          <height>111</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+border -raduis: 3px;
+	background-color: rgb(211, 164, 103);
+color: rgb(255, 255, 255);
+font: 700 16pt &quot;Ubuntu Condensed&quot;;
+}
+
+QPushButton:hover{
+	
+	background-color: rgb(255, 163, 72);
+}
+
+QPushButton:pressed{
+	background-color: rgb(87, 227, 137);
+}</string>
+        </property>
+        <property name="text">
+         <string>View Bank Database</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <spacer name="verticalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="0" column="2">
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>114</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="3" column="3">
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>46</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="6" column="2">
+       <spacer name="verticalSpacer_9">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="3" column="5">
+       <spacer name="horizontalSpacer_11">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>47</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <spacer name="horizontalSpacer_16">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>135</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="4">
+    <spacer name="horizontalSpacer_15">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>135</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="0" column="2">
+    <spacer name="verticalSpacer_7">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
