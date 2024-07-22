@@ -1,0 +1,154 @@
+<mxfile host="app.diagrams.net" modified="2024-05-09T04:44:02.241Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="KuvYdNVXQxypXXS3a8Gn" version="24.3.1" type="device">
+  <diagram name="Page-1" id="0BG-z3tWj8QJMBqZF5F0">
+    <mxGraphModel dx="2214" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-48" value="Client" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="80" width="750" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-49" value="Admin window" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="250" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-50" value="User window" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="250" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-51" value="View" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="120" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-52" value="Socket Handler" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="250" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-53" value="Control" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="130" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-54" value="Login window" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="250" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0AOnHf1nTeX32HPMzBOX-57" target="0AOnHf1nTeX32HPMzBOX-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0AOnHf1nTeX32HPMzBOX-57" target="0AOnHf1nTeX32HPMzBOX-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0AOnHf1nTeX32HPMzBOX-57" target="0AOnHf1nTeX32HPMzBOX-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0AOnHf1nTeX32HPMzBOX-57" target="0AOnHf1nTeX32HPMzBOX-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-57" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="170" y="190" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0AOnHf1nTeX32HPMzBOX-65" target="0AOnHf1nTeX32HPMzBOX-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-65" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="135" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="1" source="0AOnHf1nTeX32HPMzBOX-65" target="0AOnHf1nTeX32HPMzBOX-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-68" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="0AOnHf1nTeX32HPMzBOX-52" target="0AOnHf1nTeX32HPMzBOX-53">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="490" y="220" as="sourcePoint" />
+            <mxPoint x="650" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0AOnHf1nTeX32HPMzBOX-69" target="0AOnHf1nTeX32HPMzBOX-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-69" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="145" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-70" value="Server" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="80" width="740" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-72" value="Client Handler" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="140" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-73" value="request Handler" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="136" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-74" value="Database Handler" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="136" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="1" source="0AOnHf1nTeX32HPMzBOX-69" target="0AOnHf1nTeX32HPMzBOX-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-76" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="145" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.013;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0AOnHf1nTeX32HPMzBOX-76" target="0AOnHf1nTeX32HPMzBOX-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.987;entryY=0.314;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0AOnHf1nTeX32HPMzBOX-76" target="0AOnHf1nTeX32HPMzBOX-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-81" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="145" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.38;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0AOnHf1nTeX32HPMzBOX-81" target="0AOnHf1nTeX32HPMzBOX-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.03;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0AOnHf1nTeX32HPMzBOX-81" target="0AOnHf1nTeX32HPMzBOX-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0AOnHf1nTeX32HPMzBOX-84" target="0AOnHf1nTeX32HPMzBOX-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0AOnHf1nTeX32HPMzBOX-84" target="0AOnHf1nTeX32HPMzBOX-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-84" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="230" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0AOnHf1nTeX32HPMzBOX-89" target="0AOnHf1nTeX32HPMzBOX-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-89" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="230" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0AOnHf1nTeX32HPMzBOX-92" target="0AOnHf1nTeX32HPMzBOX-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-92" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="720" y="200" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=35;entryPerimeter=0;" edge="1" parent="1" source="0AOnHf1nTeX32HPMzBOX-92" target="0AOnHf1nTeX32HPMzBOX-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="0AOnHf1nTeX32HPMzBOX-96" target="0AOnHf1nTeX32HPMzBOX-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-96" value="" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="365" y="170" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=35;entryPerimeter=0;" edge="1" parent="1" source="0AOnHf1nTeX32HPMzBOX-96" target="0AOnHf1nTeX32HPMzBOX-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-99" value="Client details" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="345" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-100" value="sending request" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="105" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-101" value="receiving response" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=35;entryPerimeter=0;" edge="1" parent="1" source="0AOnHf1nTeX32HPMzBOX-89" target="0AOnHf1nTeX32HPMzBOX-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-105" value="providing data from database" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="260" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-106" value="sending data to client side" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="260" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0AOnHf1nTeX32HPMzBOX-107" value="providing data to view" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="345" y="195" width="65" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
